@@ -93,9 +93,9 @@ public class BoardController {
 		return "forward:getBoardList";
 	}
 	
-	@GetMapping("/hello")
-	public void hello(Model model) {
-		model.addAttribute("greeting", "Hello 타임리프.^^");
-	}
+//	@GetMapping("/hello")
+//	public void hello(Model model) {
+//		model.addAttribute("greeting", "Hello 타임리프.^^");
+//	}
 	
 }
